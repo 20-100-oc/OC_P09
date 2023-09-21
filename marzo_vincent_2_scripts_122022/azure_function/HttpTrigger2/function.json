@@ -1,0 +1,48 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    }, 
+    {
+      "name": "recsFile",
+      "type": "blob",
+      "dataType": "binary",
+      "path": "data-container/recs_idx_5.npy",
+      "connection": "AzureWebJobsStorage",
+      "direction": "in"
+    }, 
+    {
+      "name": "embeddingsFile",
+      "type": "blob",
+      "dataType": "binary",
+      "path": "data-container/embeddings_pca_95.npy",
+      "connection": "AzureWebJobsStorage",
+      "direction": "in"
+    }, 
+    {
+      "name": "timeClick",
+      "type": "blob",
+      "dataType": "binary",
+      "path": "data-container/time_click.pkl",
+      "connection": "AzureWebJobsStorage",
+      "direction": "in"
+    }
+  ]
+}
+
+
+
+

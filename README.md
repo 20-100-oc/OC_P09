@@ -20,17 +20,20 @@ Le but est de recommander à un utilisateur donnée des articles qu'il sera susc
 - Présentation PowerPoint
 
 ## Outils
+- Python
 - Git / Github
-- Jupyter notebook
+- Jupyter notebook / Python IDE
+- PowerPoint
 - Streamlit
 - Azure web app
 - Google Storage
-- Python
-  - numpy
-  - pandas
-  - scikit-learn
-  - scikit-surprise
-  - azure-functions
-  - azure-storage-blob
-  - streamlit
-  - requests
+
+### Python : libraires additionnelles
+- numpy
+- pandas
+- scikit-learn
+- scikit-surprise
+- azure-functions
+- azure-storage-blob
+- streamlit
+- requests

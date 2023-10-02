@@ -1,17 +1,17 @@
 # Projet: Réalisez une application de recommandation de contenu
 
 ## Contexte
-Construction du premier MVP d'une startup: système de recommandation d'articles et de livres à des particuliers.
+Construction du premier MVP d'une start-up: système de recommandation d'articles et de livres à des particuliers.
 Après consultation avec un développeur web, l'architecture de déploiement "serverless" est retenu.
 Les données utilisées pour ce projet viennent d'un dataset rendu publique par Globo.com, le plus grand portail d'actualités au Brésil.
-Le but est de recommander à un utilisateur donnée des articles qu'il sera susceptible de lire, compte tenu de son historique de lecture.
+Le but est de recommander à un utilisateur donné des articles qu'il sera susceptible de lire, compte tenu de son historique de lecture.
 
 ## Objectifs
 - Développer la fonctionnalité critique du produit: "recommander 5 articles à un utilisateur"
-  - pré-traîtement des données: calcul de similarité entre les articles (transformés en plongements de mots) 
+  - pré-traitement des données: calcul de similarité entre les articles (transformés en plongements de mots) 
   - choisir une métrique pour le calcul de similarité entre articles
   - élaborer un modèle "content-based filtering"
-- La déployer le système de recommandation sous forme d'Azure Fuctions
+- La déployer le système de recommandation sous forme d'Azure Functions
 - Créer une application d'interaction qui permet de recevoir les articles recommandés pour l'utilisateur choisi
 
 ## Livrables
